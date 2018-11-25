@@ -334,6 +334,9 @@ connect-email:hover,
 }
 
 @media (min-width: 768px) {
+  #aboutme {
+    padding-top: 2rem;
+  }
   .smalltop {
     display: none;
   }
