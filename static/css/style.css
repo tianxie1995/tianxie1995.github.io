@@ -21,6 +21,9 @@ body {
   color: #ffffff;
   text-align: left;
 }
+footer {
+  display: block;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -306,8 +309,6 @@ connect-email:hover,
   }
   .container-body {
     color: black;
-    height: auto;
-    min-height: 100vh;
     background-color: white;
     border-radius: 0rem;
     min-width: 16rem;
@@ -390,7 +391,6 @@ connect-email:hover,
   }
   .container-body {
     margin-top: 0px;
-    height: auto;
     color: black;
     background-color: #fffefd;
     border-radius: 0rem;
@@ -434,7 +434,7 @@ connect-email:hover,
 
 @media (min-width: 992px) {
   .container-sidebar {
-    height: 2000px;
+    height: 1500px;
   }
   .articles:after {
     content: "";
