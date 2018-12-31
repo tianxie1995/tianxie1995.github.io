@@ -347,7 +347,7 @@ connect-email:hover,
   .container-sidebar {
     float: left;
     width: 300px;
-    height: 130vh;
+    height: 200vh;
     background-color: rgba(70, 175, 248, 0.05);
     border-radius: 0rem;
     margin-right: auto;
@@ -434,7 +434,6 @@ connect-email:hover,
 
 @media (min-width: 992px) {
   .container-sidebar {
-    height: 1500px;
   }
   .articles:after {
     content: "";
@@ -451,6 +450,5 @@ connect-email:hover,
 }
 @media (min-width: 1490px) {
   .container-sidebar {
-    height: 100vh;
   }
 }
